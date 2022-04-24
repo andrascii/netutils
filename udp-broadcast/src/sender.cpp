@@ -1,9 +1,9 @@
 #include <atomic>
 #include <chrono>
 #include <thread>
-#include <csignal>
+#include <cassert>
+#include <cstring>
 #include <sys/socket.h>
-#include <sys/types.h>
 #include <arpa/inet.h>
 #include <unistd.h>
 
