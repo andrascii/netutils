@@ -1,6 +1,7 @@
 #include <atomic>
 #include <chrono>
 #include <thread>
+#include <functional>
 #include <cassert>
 #include <cstring>
 #include <sys/socket.h>
